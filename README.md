@@ -1,24 +1,21 @@
-# learn_vuejs
+# VUE CLI
 
-## Project setup
+- Install vue CLI
 ```
-npm install
+npm install -g @vue/cli
 ```
+- To use vue as command in cmd. Open the cmd as admin and run the the following command.
+```
+setx /M path "%path%;%appdata%\npm"
+```
+- Now restart the cmd and run the vue again. It should work just fine.
 
-### Compiles and hot-reloads for development
+- Create Vue Js Project
 ```
+vue create learn_vuejs
+```
+- Serve project
+```
+cd learn_vuejs
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
